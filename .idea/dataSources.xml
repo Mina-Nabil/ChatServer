@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" hash="3563654971">
+    <data-source source="LOCAL" name="MySQL - @localhost" uuid="2c63047d-fdc4-4f97-bc3e-af17e54766cb">
+      <driver-ref>mysql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://localhost:3309</jdbc-url>
+      <user-name>root</user-name>
+      <user-password>dfe7dfe3dfe4dfebdf9edfcfdfdcdfcfdfd8</user-password>
+      <schema-pattern>chat_server.*</schema-pattern>
+      <driver-properties>
+        <property name="zeroDateTimeBehavior" value="convertToNull" />
+        <property name="tinyInt1isBit" value="false" />
+      </driver-properties>
+      <libraries />
+    </data-source>
+  </component>
+</project>
+
