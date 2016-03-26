@@ -1,0 +1,13 @@
+To init a repo:
+
+	git init
+
+To check for status:
+	git status
+
+To add all files
+
+	git add .
+
+To commit changes:
+	git commit -m "{message}"

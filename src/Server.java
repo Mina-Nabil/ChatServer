@@ -11,6 +11,8 @@ import java.sql.SQLException;
  */
 public class Server extends JFrame {
 
+    final private int SERVER_PORT = 44556;
+
     Connection conn;
     JTextArea textArea;
     ServerSocket server;
@@ -44,22 +46,25 @@ public class Server extends JFrame {
 
         gui_Init();
         DB_Init();
+        try {
+            server = new ServerSocket(SERVER_PORT);
 
 
         //Port Listening
         while(true){
             try {
                 Socket s = server.accept();
-                new Thread(new Handler(s, conn)).start();
+                new Thread(new Handler(s, conn, textArea)).start();
             } catch (IOException e) {
                 textArea.append("IO Error(6325): " + e.getMessage());
             }
         }
+        } catch (IOException e) {
+            textArea.append("Critical Error: " + e.getMessage());
+        }
 
 
     }
-
-
 
 
 

@@ -7,13 +7,29 @@
     </database-info>
     <case-sensitivity plain-identifiers="lower" quoted-identifiers="lower"/>
     <schema name="" catalog="chat_server"/>
+    <table name="groups" schema="" catalog="chat_server" type="TABLE">
+      <column name="GRP_ID" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" autoIncrement="true"/>
+      <column name="GRP_NAME" sqlType="VARCHAR" precision="45" scale="0" nullable="false" jdbcType="12"/>
+      <primary-key name="PRIMARY" columns="GRP_ID"/>
+      <exported-key name="GRP_ID" table="user_grp_rel" schema="" catalog="chat_server" columns="GRP_ID"/>
+      <index name="GRP_NAME_UNIQUE" unique="true" columns="GRP_NAME"/>
+    </table>
+    <table name="user_grp_rel" schema="" catalog="chat_server" type="TABLE">
+      <column name="GRP_ID" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4"/>
+      <column name="USER_ID" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4"/>
+      <primary-key name="PRIMARY" columns="GRP_ID,USER_ID"/>
+      <foreign-key name="USER_ID" columns="USER_ID" ref-table="users" ref-schema="" ref-catalog="chat_server" ref-columns="USER_ID" update-rule="3" delete-rule="3" deferrability="2"/>
+      <foreign-key name="GRP_ID" columns="GRP_ID" ref-table="groups" ref-schema="" ref-catalog="chat_server" ref-columns="GRP_ID" update-rule="3" delete-rule="3" deferrability="2"/>
+      <index name="USER_ID_idx" unique="false" columns="USER_ID"/>
+    </table>
     <table name="users" schema="" catalog="chat_server" type="TABLE">
       <column name="USER_ID" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" autoIncrement="true"/>
       <column name="USER_NAME" sqlType="VARCHAR" precision="45" scale="0" nullable="false" jdbcType="12"/>
       <column name="USER_PASS" sqlType="VARCHAR" precision="45" scale="0" nullable="false" jdbcType="12"/>
-      <column name="USER_STATE" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" def="MQ=="/>
+      <column name="USER_STATE" sqlType="BIT" precision="1" scale="0" nullable="false" jdbcType="-7" def="YicxJw=="/>
       <column name="USER_IP" sqlType="VARCHAR" precision="45" scale="0" nullable="false" jdbcType="12"/>
       <primary-key name="PRIMARY" columns="USER_ID"/>
+      <exported-key name="USER_ID" table="user_grp_rel" schema="" catalog="chat_server" columns="USER_ID"/>
       <index name="USER_NAME_UNIQUE" unique="true" columns="USER_NAME"/>
     </table>
   </data-source>
