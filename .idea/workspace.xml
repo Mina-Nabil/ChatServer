@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="ChatServer:jar" />
+    </artifacts-to-build>
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="55210433-eb25-408e-ae37-fd9a5ea55553" name="Default" comment="" />
     <ignored path="ChatServer.iws" />
@@ -17,46 +22,86 @@
   <component name="DaemonCodeAnalyzer">
     <disable_hints />
   </component>
+  <component name="DebuggerManager">
+    <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true" converted="true">
+      <breakpoint>
+        <option name="NOTIFY_CAUGHT" value="true" />
+        <option name="NOTIFY_UNCAUGHT" value="true" />
+        <option name="ENABLED" value="false" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint>
+        <option name="NOTIFY_CAUGHT" value="true" />
+        <option name="NOTIFY_UNCAUGHT" value="true" />
+        <option name="ENABLED" value="false" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+    </breakpoint_any>
+    <ui_properties converted="true" />
+    <breakpoint_rules converted="true" />
+  </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
     <favorites_list name="ChatServer" />
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Server.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="Server.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Server.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="952" max-vertical-offset="1666">
-              <caret line="56" column="0" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Handler.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Handler.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.39209226" vertical-offset="1496" max-vertical-offset="3298">
-              <caret line="119" column="20" selection-start-line="119" selection-start-column="20" selection-end-line="119" selection-end-column="20" />
+            <state vertical-scroll-proportion="0.21581548" vertical-offset="2079" max-vertical-offset="3502">
+              <caret line="151" column="48" selection-start-line="151" selection-start-column="48" selection-end-line="151" selection-end-column="48" />
               <folding>
-                <element signature="e#3645#3646#0" expanded="true" />
-                <element signature="e#3672#3673#0" expanded="true" />
-                <marker date="1458985400913" expanded="true" signature="1083:1147" placeholder="SELECT COUNT..users..." />
-                <marker date="1458985400913" expanded="true" signature="1680:1728" placeholder="UPDATE users..." />
-                <marker date="1458985400913" expanded="true" signature="2144:2245" placeholder="SELECT USER_..users..." />
-                <marker date="1458985400913" expanded="true" signature="3118:3163" placeholder="SELECT USER_..users..." />
-                <marker date="1458985400913" expanded="true" signature="5740:5805" placeholder="INSERT INTO ..." />
+                <marker date="1459279672720" expanded="true" signature="899:936" placeholder="DELETE FROM ..." />
+                <marker date="1459279672720" expanded="true" signature="4561:4616" placeholder="UPDATE users..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Contacts.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Data/Contacts.java">
+      <file leaf-file-name="Handler.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Handler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="209" max-vertical-offset="816">
-              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-              <folding />
+            <state vertical-scroll-proportion="0.0" vertical-offset="5197" max-vertical-offset="6596">
+              <caret line="337" column="42" selection-start-line="337" selection-start-column="42" selection-end-line="337" selection-end-column="42" />
+              <folding>
+                <marker date="1459326954962" expanded="true" signature="1350:1414" placeholder="SELECT COUNT..users..." />
+                <marker date="1459326954962" expanded="true" signature="1972:2223" placeholder="SELECT USER_..users..." />
+                <marker date="1459326954962" expanded="true" signature="3080:3134" placeholder="UPDATE users..." />
+                <marker date="1459326954962" expanded="true" signature="3521:3622" placeholder="SELECT USER_..users..." />
+                <marker date="1459326954962" expanded="true" signature="4537:4582" placeholder="SELECT USER_..users..." />
+                <marker date="1459326954962" expanded="true" signature="5160:5198" placeholder="INSERT INTO ..." />
+                <marker date="1459326954962" expanded="true" signature="5737:6020" placeholder="SELECT GRP_N..groups..." />
+                <marker date="1459326954962" expanded="true" signature="6573:7212" placeholder="SELECT DISTI..groups..." />
+                <marker date="1459326954962" expanded="true" signature="6901:7183" placeholder="SELECT GRP_N..groups..." />
+                <marker date="1459326954962" expanded="true" signature="7982:8039" placeholder="DELETE FROM ..." />
+                <marker date="1459326954962" expanded="true" signature="8460:8505" placeholder="SELECT USER_..users..." />
+                <marker date="1459326954962" expanded="true" signature="8990:9034" placeholder="SELECT GRP_I..groups..." />
+                <marker date="1459326954962" expanded="true" signature="9541:9606" placeholder="INSERT INTO ..." />
+                <marker date="1459326954962" expanded="true" signature="10076:10116" placeholder="INSERT INTO ..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -72,8 +117,12 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/src/Data/User.java" />
-        <option value="$PROJECT_DIR$/src/Server.java" />
+        <option value="$PROJECT_DIR$/src/Tracker.java" />
+        <option value="$PROJECT_DIR$/src/Data/Contacts.java" />
+        <option value="dbtable:/d5cfbb65/2c63047d-fdc4-4f97-bc3e-af17e54766cb/chat_server..groups" />
+        <option value="dbtable:/d5cfbb65/2c63047d-fdc4-4f97-bc3e-af17e54766cb/chat_server..user_grp_rel" />
         <option value="dbtable:/d5cfbb65/2c63047d-fdc4-4f97-bc3e-af17e54766cb/chat_server..users" />
+        <option value="$PROJECT_DIR$/src/Server.java" />
         <option value="$PROJECT_DIR$/src/Handler.java" />
       </list>
     </option>
@@ -112,7 +161,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -166,6 +214,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -180,14 +229,15 @@
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="dynamic.classpath" value="false" />
-    <property name="last_opened_file_path" value="C:/Program Files (x86)/MySQL/MySQL Connector J" />
+    <property name="last_opened_file_path" value="C:/Program Files/MySQL/Connector J 5.1.29/mysql-connector-java-5.1.29-bin.jar!/" />
     <property name="OverrideImplement.combined" value="true" />
     <property name="OverrideImplement.overriding.sorted" value="false" />
     <property name="recentsLimit" value="5" />
+    <property name="FullScreen" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -221,12 +271,6 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
-      <module name="" />
-      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
-      <option name="PROGRAM_PARAMETERS" />
-      <method />
-    </configuration>
     <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails">
       <module name="" />
       <setting name="vmparams" value="" />
@@ -235,6 +279,12 @@
       <setting name="passParentEnv" value="true" />
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <setting name="launchBrowser" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
       <method />
     </configuration>
     <configuration default="true" type="Remote" factoryName="Remote">
@@ -414,6 +464,12 @@
       <envs />
       <method />
     </configuration>
+    <configuration default="true" type="com.intellij.persistence.run.ConsoleRunConfigurationType" factoryName="Query Language Console">
+      <option name="VM_PARAMETERS" value="" />
+      <option name="USER_CFG_CLASS" />
+      <option name="CONTEXT_PROVIDER" />
+      <method />
+    </configuration>
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
       <module name="" />
       <option name="ACTIVITY_CLASS" value="" />
@@ -432,12 +488,6 @@
       <option name="CLEAR_LOGCAT" value="false" />
       <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
       <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
-      <method />
-    </configuration>
-    <configuration default="true" type="com.intellij.persistence.run.ConsoleRunConfigurationType" factoryName="Query Language Console">
-      <option name="VM_PARAMETERS" value="" />
-      <option name="USER_CFG_CLASS" />
-      <option name="CONTEXT_PROVIDER" />
       <method />
     </configuration>
     <list size="1">
@@ -467,42 +517,55 @@
       <workItem from="1458589298497" duration="970000" />
       <workItem from="1458647480447" duration="142000" />
       <workItem from="1458923722467" duration="11928000" />
-      <workItem from="1458985231185" duration="192000" />
+      <workItem from="1458985231185" duration="2082000" />
+      <workItem from="1458987347676" duration="11005000" />
+      <workItem from="1459021860020" duration="1721000" />
+      <workItem from="1459072746135" duration="5465000" />
+      <workItem from="1459085913631" duration="15303000" />
+      <workItem from="1459120666988" duration="1151000" />
+      <workItem from="1459248624488" duration="3114000" />
+      <workItem from="1459252717926" duration="8640000" />
+      <workItem from="1459261775144" duration="6050000" />
+      <workItem from="1459268409582" duration="519000" />
+      <workItem from="1459279623322" duration="139000" />
+      <workItem from="1459326745495" duration="361000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17996000" />
+    <option name="totallyTimeSpent" value="73354000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="0" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18887262" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14494875" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32913387" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24963397" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32913387" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2489019" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32440946" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="DB Browser" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32991204" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="DB Execution Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32913387" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -524,7 +587,21 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="7" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Server.java</url>
+          <line>219</line>
+          <properties />
+          <option name="timeStamp" value="72" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Handler.java</url>
+          <line>346</line>
+          <properties />
+          <option name="timeStamp" value="90" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="92" />
     </breakpoint-manager>
   </component>
   <component name="antWorkspaceConfiguration">
@@ -534,155 +611,603 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/Server.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="952" max-vertical-offset="1666">
-          <caret line="56" column="0" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
-          <folding />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1459279672720" expanded="true" signature="899:936" placeholder="DELETE FROM ..." />
+            <marker date="1459279672720" expanded="true" signature="4561:4616" placeholder="UPDATE users..." />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Handler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="510" max-vertical-offset="3536">
-          <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#3645#3646#0" expanded="true" />
-            <element signature="e#3672#3673#0" expanded="true" />
-            <marker date="1458985400913" expanded="true" signature="1083:1147" placeholder="SELECT COUNT..users..." />
-            <marker date="1458985400913" expanded="true" signature="1680:1728" placeholder="UPDATE users..." />
-            <marker date="1458985400913" expanded="true" signature="2144:2245" placeholder="SELECT USER_..users..." />
-            <marker date="1458985400913" expanded="true" signature="3118:3163" placeholder="SELECT USER_..users..." />
-            <marker date="1458985400913" expanded="true" signature="5740:5805" placeholder="INSERT INTO ..." />
+            <marker date="1459326954962" expanded="true" signature="1350:1414" placeholder="SELECT COUNT..users..." />
+            <marker date="1459326954962" expanded="true" signature="1972:2223" placeholder="SELECT USER_..users..." />
+            <marker date="1459326954962" expanded="true" signature="3080:3134" placeholder="UPDATE users..." />
+            <marker date="1459326954962" expanded="true" signature="3521:3622" placeholder="SELECT USER_..users..." />
+            <marker date="1459326954962" expanded="true" signature="4537:4582" placeholder="SELECT USER_..users..." />
+            <marker date="1459326954962" expanded="true" signature="5160:5198" placeholder="INSERT INTO ..." />
+            <marker date="1459326954962" expanded="true" signature="5737:6020" placeholder="SELECT GRP_N..groups..." />
+            <marker date="1459326954962" expanded="true" signature="6573:7212" placeholder="SELECT DISTI..groups..." />
+            <marker date="1459326954962" expanded="true" signature="6901:7183" placeholder="SELECT GRP_N..groups..." />
+            <marker date="1459326954962" expanded="true" signature="7982:8039" placeholder="DELETE FROM ..." />
+            <marker date="1459326954962" expanded="true" signature="8460:8505" placeholder="SELECT USER_..users..." />
+            <marker date="1459326954962" expanded="true" signature="8990:9034" placeholder="SELECT GRP_I..groups..." />
+            <marker date="1459326954962" expanded="true" signature="9541:9606" placeholder="INSERT INTO ..." />
+            <marker date="1459326954962" expanded="true" signature="10076:10116" placeholder="INSERT INTO ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Data/Groups.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Data/Contacts.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Server.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1459279672720" expanded="true" signature="899:936" placeholder="DELETE FROM ..." />
+            <marker date="1459279672720" expanded="true" signature="4561:4616" placeholder="UPDATE users..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Handler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1459326954962" expanded="true" signature="1350:1414" placeholder="SELECT COUNT..users..." />
+            <marker date="1459326954962" expanded="true" signature="1972:2223" placeholder="SELECT USER_..users..." />
+            <marker date="1459326954962" expanded="true" signature="3080:3134" placeholder="UPDATE users..." />
+            <marker date="1459326954962" expanded="true" signature="3521:3622" placeholder="SELECT USER_..users..." />
+            <marker date="1459326954962" expanded="true" signature="4537:4582" placeholder="SELECT USER_..users..." />
+            <marker date="1459326954962" expanded="true" signature="5160:5198" placeholder="INSERT INTO ..." />
+            <marker date="1459326954962" expanded="true" signature="5737:6020" placeholder="SELECT GRP_N..groups..." />
+            <marker date="1459326954962" expanded="true" signature="6573:7212" placeholder="SELECT DISTI..groups..." />
+            <marker date="1459326954962" expanded="true" signature="6901:7183" placeholder="SELECT GRP_N..groups..." />
+            <marker date="1459326954962" expanded="true" signature="7982:8039" placeholder="DELETE FROM ..." />
+            <marker date="1459326954962" expanded="true" signature="8460:8505" placeholder="SELECT USER_..users..." />
+            <marker date="1459326954962" expanded="true" signature="8990:9034" placeholder="SELECT GRP_I..groups..." />
+            <marker date="1459326954962" expanded="true" signature="9541:9606" placeholder="INSERT INTO ..." />
+            <marker date="1459326954962" expanded="true" signature="10076:10116" placeholder="INSERT INTO ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Data/Groups.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Data/Contacts.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Server.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1459279672720" expanded="true" signature="899:936" placeholder="DELETE FROM ..." />
+            <marker date="1459279672720" expanded="true" signature="4561:4616" placeholder="UPDATE users..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Handler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1459326954962" expanded="true" signature="1350:1414" placeholder="SELECT COUNT..users..." />
+            <marker date="1459326954962" expanded="true" signature="1972:2223" placeholder="SELECT USER_..users..." />
+            <marker date="1459326954962" expanded="true" signature="3080:3134" placeholder="UPDATE users..." />
+            <marker date="1459326954962" expanded="true" signature="3521:3622" placeholder="SELECT USER_..users..." />
+            <marker date="1459326954962" expanded="true" signature="4537:4582" placeholder="SELECT USER_..users..." />
+            <marker date="1459326954962" expanded="true" signature="5160:5198" placeholder="INSERT INTO ..." />
+            <marker date="1459326954962" expanded="true" signature="5737:6020" placeholder="SELECT GRP_N..groups..." />
+            <marker date="1459326954962" expanded="true" signature="6573:7212" placeholder="SELECT DISTI..groups..." />
+            <marker date="1459326954962" expanded="true" signature="6901:7183" placeholder="SELECT GRP_N..groups..." />
+            <marker date="1459326954962" expanded="true" signature="7982:8039" placeholder="DELETE FROM ..." />
+            <marker date="1459326954962" expanded="true" signature="8460:8505" placeholder="SELECT USER_..users..." />
+            <marker date="1459326954962" expanded="true" signature="8990:9034" placeholder="SELECT GRP_I..groups..." />
+            <marker date="1459326954962" expanded="true" signature="9541:9606" placeholder="INSERT INTO ..." />
+            <marker date="1459326954962" expanded="true" signature="10076:10116" placeholder="INSERT INTO ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Data/Groups.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Data/Contacts.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Server.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1459279672720" expanded="true" signature="899:936" placeholder="DELETE FROM ..." />
+            <marker date="1459279672720" expanded="true" signature="4561:4616" placeholder="UPDATE users..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Handler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1459326954962" expanded="true" signature="1350:1414" placeholder="SELECT COUNT..users..." />
+            <marker date="1459326954962" expanded="true" signature="1972:2223" placeholder="SELECT USER_..users..." />
+            <marker date="1459326954962" expanded="true" signature="3080:3134" placeholder="UPDATE users..." />
+            <marker date="1459326954962" expanded="true" signature="3521:3622" placeholder="SELECT USER_..users..." />
+            <marker date="1459326954962" expanded="true" signature="4537:4582" placeholder="SELECT USER_..users..." />
+            <marker date="1459326954962" expanded="true" signature="5160:5198" placeholder="INSERT INTO ..." />
+            <marker date="1459326954962" expanded="true" signature="5737:6020" placeholder="SELECT GRP_N..groups..." />
+            <marker date="1459326954962" expanded="true" signature="6573:7212" placeholder="SELECT DISTI..groups..." />
+            <marker date="1459326954962" expanded="true" signature="6901:7183" placeholder="SELECT GRP_N..groups..." />
+            <marker date="1459326954962" expanded="true" signature="7982:8039" placeholder="DELETE FROM ..." />
+            <marker date="1459326954962" expanded="true" signature="8460:8505" placeholder="SELECT USER_..users..." />
+            <marker date="1459326954962" expanded="true" signature="8990:9034" placeholder="SELECT GRP_I..groups..." />
+            <marker date="1459326954962" expanded="true" signature="9541:9606" placeholder="INSERT INTO ..." />
+            <marker date="1459326954962" expanded="true" signature="10076:10116" placeholder="INSERT INTO ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Data/Groups.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Data/Contacts.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Server.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1459279672720" expanded="true" signature="899:936" placeholder="DELETE FROM ..." />
+            <marker date="1459279672720" expanded="true" signature="4561:4616" placeholder="UPDATE users..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Handler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1459326954962" expanded="true" signature="1350:1414" placeholder="SELECT COUNT..users..." />
+            <marker date="1459326954962" expanded="true" signature="1972:2223" placeholder="SELECT USER_..users..." />
+            <marker date="1459326954962" expanded="true" signature="3080:3134" placeholder="UPDATE users..." />
+            <marker date="1459326954962" expanded="true" signature="3521:3622" placeholder="SELECT USER_..users..." />
+            <marker date="1459326954962" expanded="true" signature="4537:4582" placeholder="SELECT USER_..users..." />
+            <marker date="1459326954962" expanded="true" signature="5160:5198" placeholder="INSERT INTO ..." />
+            <marker date="1459326954962" expanded="true" signature="5737:6020" placeholder="SELECT GRP_N..groups..." />
+            <marker date="1459326954962" expanded="true" signature="6573:7212" placeholder="SELECT DISTI..groups..." />
+            <marker date="1459326954962" expanded="true" signature="6901:7183" placeholder="SELECT GRP_N..groups..." />
+            <marker date="1459326954962" expanded="true" signature="7982:8039" placeholder="DELETE FROM ..." />
+            <marker date="1459326954962" expanded="true" signature="8460:8505" placeholder="SELECT USER_..users..." />
+            <marker date="1459326954962" expanded="true" signature="8990:9034" placeholder="SELECT GRP_I..groups..." />
+            <marker date="1459326954962" expanded="true" signature="9541:9606" placeholder="INSERT INTO ..." />
+            <marker date="1459326954962" expanded="true" signature="10076:10116" placeholder="INSERT INTO ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Data/Groups.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Data/Contacts.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Server.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1459279672720" expanded="true" signature="899:936" placeholder="DELETE FROM ..." />
+            <marker date="1459279672720" expanded="true" signature="4561:4616" placeholder="UPDATE users..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Handler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1459326954962" expanded="true" signature="1350:1414" placeholder="SELECT COUNT..users..." />
+            <marker date="1459326954962" expanded="true" signature="1972:2223" placeholder="SELECT USER_..users..." />
+            <marker date="1459326954962" expanded="true" signature="3080:3134" placeholder="UPDATE users..." />
+            <marker date="1459326954962" expanded="true" signature="3521:3622" placeholder="SELECT USER_..users..." />
+            <marker date="1459326954962" expanded="true" signature="4537:4582" placeholder="SELECT USER_..users..." />
+            <marker date="1459326954962" expanded="true" signature="5160:5198" placeholder="INSERT INTO ..." />
+            <marker date="1459326954962" expanded="true" signature="5737:6020" placeholder="SELECT GRP_N..groups..." />
+            <marker date="1459326954962" expanded="true" signature="6573:7212" placeholder="SELECT DISTI..groups..." />
+            <marker date="1459326954962" expanded="true" signature="6901:7183" placeholder="SELECT GRP_N..groups..." />
+            <marker date="1459326954962" expanded="true" signature="7982:8039" placeholder="DELETE FROM ..." />
+            <marker date="1459326954962" expanded="true" signature="8460:8505" placeholder="SELECT USER_..users..." />
+            <marker date="1459326954962" expanded="true" signature="8990:9034" placeholder="SELECT GRP_I..groups..." />
+            <marker date="1459326954962" expanded="true" signature="9541:9606" placeholder="INSERT INTO ..." />
+            <marker date="1459326954962" expanded="true" signature="10076:10116" placeholder="INSERT INTO ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Data/Groups.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Data/Contacts.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Server.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1459279672720" expanded="true" signature="899:936" placeholder="DELETE FROM ..." />
+            <marker date="1459279672720" expanded="true" signature="4561:4616" placeholder="UPDATE users..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Handler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1459326954962" expanded="true" signature="1350:1414" placeholder="SELECT COUNT..users..." />
+            <marker date="1459326954962" expanded="true" signature="1972:2223" placeholder="SELECT USER_..users..." />
+            <marker date="1459326954962" expanded="true" signature="3080:3134" placeholder="UPDATE users..." />
+            <marker date="1459326954962" expanded="true" signature="3521:3622" placeholder="SELECT USER_..users..." />
+            <marker date="1459326954962" expanded="true" signature="4537:4582" placeholder="SELECT USER_..users..." />
+            <marker date="1459326954962" expanded="true" signature="5160:5198" placeholder="INSERT INTO ..." />
+            <marker date="1459326954962" expanded="true" signature="5737:6020" placeholder="SELECT GRP_N..groups..." />
+            <marker date="1459326954962" expanded="true" signature="6573:7212" placeholder="SELECT DISTI..groups..." />
+            <marker date="1459326954962" expanded="true" signature="6901:7183" placeholder="SELECT GRP_N..groups..." />
+            <marker date="1459326954962" expanded="true" signature="7982:8039" placeholder="DELETE FROM ..." />
+            <marker date="1459326954962" expanded="true" signature="8460:8505" placeholder="SELECT USER_..users..." />
+            <marker date="1459326954962" expanded="true" signature="8990:9034" placeholder="SELECT GRP_I..groups..." />
+            <marker date="1459326954962" expanded="true" signature="9541:9606" placeholder="INSERT INTO ..." />
+            <marker date="1459326954962" expanded="true" signature="10076:10116" placeholder="INSERT INTO ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Data/Groups.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Data/Contacts.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Server.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1459279672720" expanded="true" signature="899:936" placeholder="DELETE FROM ..." />
+            <marker date="1459279672720" expanded="true" signature="4561:4616" placeholder="UPDATE users..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Handler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1459326954962" expanded="true" signature="1350:1414" placeholder="SELECT COUNT..users..." />
+            <marker date="1459326954962" expanded="true" signature="1972:2223" placeholder="SELECT USER_..users..." />
+            <marker date="1459326954962" expanded="true" signature="3080:3134" placeholder="UPDATE users..." />
+            <marker date="1459326954962" expanded="true" signature="3521:3622" placeholder="SELECT USER_..users..." />
+            <marker date="1459326954962" expanded="true" signature="4537:4582" placeholder="SELECT USER_..users..." />
+            <marker date="1459326954962" expanded="true" signature="5160:5198" placeholder="INSERT INTO ..." />
+            <marker date="1459326954962" expanded="true" signature="5737:6020" placeholder="SELECT GRP_N..groups..." />
+            <marker date="1459326954962" expanded="true" signature="6573:7212" placeholder="SELECT DISTI..groups..." />
+            <marker date="1459326954962" expanded="true" signature="6901:7183" placeholder="SELECT GRP_N..groups..." />
+            <marker date="1459326954962" expanded="true" signature="7982:8039" placeholder="DELETE FROM ..." />
+            <marker date="1459326954962" expanded="true" signature="8460:8505" placeholder="SELECT USER_..users..." />
+            <marker date="1459326954962" expanded="true" signature="8990:9034" placeholder="SELECT GRP_I..groups..." />
+            <marker date="1459326954962" expanded="true" signature="9541:9606" placeholder="INSERT INTO ..." />
+            <marker date="1459326954962" expanded="true" signature="10076:10116" placeholder="INSERT INTO ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Data/Groups.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Data/Contacts.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Server.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1459279672720" expanded="true" signature="899:936" placeholder="DELETE FROM ..." />
+            <marker date="1459279672720" expanded="true" signature="4561:4616" placeholder="UPDATE users..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Handler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1459326954962" expanded="true" signature="1350:1414" placeholder="SELECT COUNT..users..." />
+            <marker date="1459326954962" expanded="true" signature="1972:2223" placeholder="SELECT USER_..users..." />
+            <marker date="1459326954962" expanded="true" signature="3080:3134" placeholder="UPDATE users..." />
+            <marker date="1459326954962" expanded="true" signature="3521:3622" placeholder="SELECT USER_..users..." />
+            <marker date="1459326954962" expanded="true" signature="4537:4582" placeholder="SELECT USER_..users..." />
+            <marker date="1459326954962" expanded="true" signature="5160:5198" placeholder="INSERT INTO ..." />
+            <marker date="1459326954962" expanded="true" signature="5737:6020" placeholder="SELECT GRP_N..groups..." />
+            <marker date="1459326954962" expanded="true" signature="6573:7212" placeholder="SELECT DISTI..groups..." />
+            <marker date="1459326954962" expanded="true" signature="6901:7183" placeholder="SELECT GRP_N..groups..." />
+            <marker date="1459326954962" expanded="true" signature="7982:8039" placeholder="DELETE FROM ..." />
+            <marker date="1459326954962" expanded="true" signature="8460:8505" placeholder="SELECT USER_..users..." />
+            <marker date="1459326954962" expanded="true" signature="8990:9034" placeholder="SELECT GRP_I..groups..." />
+            <marker date="1459326954962" expanded="true" signature="9541:9606" placeholder="INSERT INTO ..." />
+            <marker date="1459326954962" expanded="true" signature="10076:10116" placeholder="INSERT INTO ..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Data/Contacts.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="1020">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/d5cfbb65/2c63047d-fdc4-4f97-bc3e-af17e54766cb/chat_server..users">
-      <provider selected="true" editor-type-id="com.intellij.persistence.database.editor.DatabaseTableFileEditorProvider">
-        <state />
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="102">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Server.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1547">
-          <caret line="61" column="0" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
-          <folding />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1459279672720" expanded="true" signature="899:936" placeholder="DELETE FROM ..." />
+            <marker date="1459279672720" expanded="true" signature="4561:4616" placeholder="UPDATE users..." />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Handler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="952">
-          <caret line="34" column="32" selection-start-line="34" selection-start-column="32" selection-end-line="34" selection-end-column="32" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#3645#3646#0" expanded="true" />
-            <element signature="e#3672#3673#0" expanded="true" />
-            <marker date="1458985400913" expanded="true" signature="1083:1147" placeholder="SELECT COUNT..users..." />
-            <marker date="1458985400913" expanded="true" signature="1680:1728" placeholder="UPDATE users..." />
-            <marker date="1458985400913" expanded="true" signature="2144:2245" placeholder="SELECT USER_..users..." />
-            <marker date="1458985400913" expanded="true" signature="3118:3163" placeholder="SELECT USER_..users..." />
-            <marker date="1458985400913" expanded="true" signature="5740:5805" placeholder="INSERT INTO ..." />
+            <marker date="1459326954962" expanded="true" signature="1350:1414" placeholder="SELECT COUNT..users..." />
+            <marker date="1459326954962" expanded="true" signature="1972:2223" placeholder="SELECT USER_..users..." />
+            <marker date="1459326954962" expanded="true" signature="3080:3134" placeholder="UPDATE users..." />
+            <marker date="1459326954962" expanded="true" signature="3521:3622" placeholder="SELECT USER_..users..." />
+            <marker date="1459326954962" expanded="true" signature="4537:4582" placeholder="SELECT USER_..users..." />
+            <marker date="1459326954962" expanded="true" signature="5160:5198" placeholder="INSERT INTO ..." />
+            <marker date="1459326954962" expanded="true" signature="5737:6020" placeholder="SELECT GRP_N..groups..." />
+            <marker date="1459326954962" expanded="true" signature="6573:7212" placeholder="SELECT DISTI..groups..." />
+            <marker date="1459326954962" expanded="true" signature="6901:7183" placeholder="SELECT GRP_N..groups..." />
+            <marker date="1459326954962" expanded="true" signature="7982:8039" placeholder="DELETE FROM ..." />
+            <marker date="1459326954962" expanded="true" signature="8460:8505" placeholder="SELECT USER_..users..." />
+            <marker date="1459326954962" expanded="true" signature="8990:9034" placeholder="SELECT GRP_I..groups..." />
+            <marker date="1459326954962" expanded="true" signature="9541:9606" placeholder="INSERT INTO ..." />
+            <marker date="1459326954962" expanded="true" signature="10076:10116" placeholder="INSERT INTO ..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Server.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1547">
-          <caret line="61" column="0" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
-          <folding />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1459279672720" expanded="true" signature="899:936" placeholder="DELETE FROM ..." />
+            <marker date="1459279672720" expanded="true" signature="4561:4616" placeholder="UPDATE users..." />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Handler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="374" max-vertical-offset="935">
-          <caret line="22" column="10" selection-start-line="22" selection-start-column="10" selection-end-line="22" selection-end-column="10" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#3645#3646#0" expanded="true" />
-            <element signature="e#3672#3673#0" expanded="true" />
-            <marker date="1458985400913" expanded="true" signature="1083:1147" placeholder="SELECT COUNT..users..." />
-            <marker date="1458985400913" expanded="true" signature="1680:1728" placeholder="UPDATE users..." />
-            <marker date="1458985400913" expanded="true" signature="2144:2245" placeholder="SELECT USER_..users..." />
-            <marker date="1458985400913" expanded="true" signature="3118:3163" placeholder="SELECT USER_..users..." />
-            <marker date="1458985400913" expanded="true" signature="5740:5805" placeholder="INSERT INTO ..." />
+            <marker date="1459326954962" expanded="true" signature="1350:1414" placeholder="SELECT COUNT..users..." />
+            <marker date="1459326954962" expanded="true" signature="1972:2223" placeholder="SELECT USER_..users..." />
+            <marker date="1459326954962" expanded="true" signature="3080:3134" placeholder="UPDATE users..." />
+            <marker date="1459326954962" expanded="true" signature="3521:3622" placeholder="SELECT USER_..users..." />
+            <marker date="1459326954962" expanded="true" signature="4537:4582" placeholder="SELECT USER_..users..." />
+            <marker date="1459326954962" expanded="true" signature="5160:5198" placeholder="INSERT INTO ..." />
+            <marker date="1459326954962" expanded="true" signature="5737:6020" placeholder="SELECT GRP_N..groups..." />
+            <marker date="1459326954962" expanded="true" signature="6573:7212" placeholder="SELECT DISTI..groups..." />
+            <marker date="1459326954962" expanded="true" signature="6901:7183" placeholder="SELECT GRP_N..groups..." />
+            <marker date="1459326954962" expanded="true" signature="7982:8039" placeholder="DELETE FROM ..." />
+            <marker date="1459326954962" expanded="true" signature="8460:8505" placeholder="SELECT USER_..users..." />
+            <marker date="1459326954962" expanded="true" signature="8990:9034" placeholder="SELECT GRP_I..groups..." />
+            <marker date="1459326954962" expanded="true" signature="9541:9606" placeholder="INSERT INTO ..." />
+            <marker date="1459326954962" expanded="true" signature="10076:10116" placeholder="INSERT INTO ..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Server.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1547">
-          <caret line="61" column="0" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
-          <folding />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1459279672720" expanded="true" signature="899:936" placeholder="DELETE FROM ..." />
+            <marker date="1459279672720" expanded="true" signature="4561:4616" placeholder="UPDATE users..." />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Handler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="357" max-vertical-offset="527">
-          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#3645#3646#0" expanded="true" />
-            <element signature="e#3672#3673#0" expanded="true" />
-            <marker date="1458985400913" expanded="true" signature="1083:1147" placeholder="SELECT COUNT..users..." />
-            <marker date="1458985400913" expanded="true" signature="1680:1728" placeholder="UPDATE users..." />
-            <marker date="1458985400913" expanded="true" signature="2144:2245" placeholder="SELECT USER_..users..." />
-            <marker date="1458985400913" expanded="true" signature="3118:3163" placeholder="SELECT USER_..users..." />
-            <marker date="1458985400913" expanded="true" signature="5740:5805" placeholder="INSERT INTO ..." />
+            <marker date="1459326954962" expanded="true" signature="1350:1414" placeholder="SELECT COUNT..users..." />
+            <marker date="1459326954962" expanded="true" signature="1972:2223" placeholder="SELECT USER_..users..." />
+            <marker date="1459326954962" expanded="true" signature="3080:3134" placeholder="UPDATE users..." />
+            <marker date="1459326954962" expanded="true" signature="3521:3622" placeholder="SELECT USER_..users..." />
+            <marker date="1459326954962" expanded="true" signature="4537:4582" placeholder="SELECT USER_..users..." />
+            <marker date="1459326954962" expanded="true" signature="5160:5198" placeholder="INSERT INTO ..." />
+            <marker date="1459326954962" expanded="true" signature="5737:6020" placeholder="SELECT GRP_N..groups..." />
+            <marker date="1459326954962" expanded="true" signature="6573:7212" placeholder="SELECT DISTI..groups..." />
+            <marker date="1459326954962" expanded="true" signature="6901:7183" placeholder="SELECT GRP_N..groups..." />
+            <marker date="1459326954962" expanded="true" signature="7982:8039" placeholder="DELETE FROM ..." />
+            <marker date="1459326954962" expanded="true" signature="8460:8505" placeholder="SELECT USER_..users..." />
+            <marker date="1459326954962" expanded="true" signature="8990:9034" placeholder="SELECT GRP_I..groups..." />
+            <marker date="1459326954962" expanded="true" signature="9541:9606" placeholder="INSERT INTO ..." />
+            <marker date="1459326954962" expanded="true" signature="10076:10116" placeholder="INSERT INTO ..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Server.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="1224">
-          <caret line="46" column="0" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
-          <folding />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1459279672720" expanded="true" signature="899:936" placeholder="DELETE FROM ..." />
+            <marker date="1459279672720" expanded="true" signature="4561:4616" placeholder="UPDATE users..." />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Handler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="17" max-vertical-offset="476">
-          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#3645#3646#0" expanded="true" />
-            <element signature="e#3672#3673#0" expanded="true" />
-            <marker date="1458985400913" expanded="true" signature="1083:1147" placeholder="SELECT COUNT..users..." />
-            <marker date="1458985400913" expanded="true" signature="1680:1728" placeholder="UPDATE users..." />
-            <marker date="1458985400913" expanded="true" signature="2144:2245" placeholder="SELECT USER_..users..." />
-            <marker date="1458985400913" expanded="true" signature="3118:3163" placeholder="SELECT USER_..users..." />
-            <marker date="1458985400913" expanded="true" signature="5740:5805" placeholder="INSERT INTO ..." />
+            <marker date="1459326954962" expanded="true" signature="1350:1414" placeholder="SELECT COUNT..users..." />
+            <marker date="1459326954962" expanded="true" signature="1972:2223" placeholder="SELECT USER_..users..." />
+            <marker date="1459326954962" expanded="true" signature="3080:3134" placeholder="UPDATE users..." />
+            <marker date="1459326954962" expanded="true" signature="3521:3622" placeholder="SELECT USER_..users..." />
+            <marker date="1459326954962" expanded="true" signature="4537:4582" placeholder="SELECT USER_..users..." />
+            <marker date="1459326954962" expanded="true" signature="5160:5198" placeholder="INSERT INTO ..." />
+            <marker date="1459326954962" expanded="true" signature="5737:6020" placeholder="SELECT GRP_N..groups..." />
+            <marker date="1459326954962" expanded="true" signature="6573:7212" placeholder="SELECT DISTI..groups..." />
+            <marker date="1459326954962" expanded="true" signature="6901:7183" placeholder="SELECT GRP_N..groups..." />
+            <marker date="1459326954962" expanded="true" signature="7982:8039" placeholder="DELETE FROM ..." />
+            <marker date="1459326954962" expanded="true" signature="8460:8505" placeholder="SELECT USER_..users..." />
+            <marker date="1459326954962" expanded="true" signature="8990:9034" placeholder="SELECT GRP_I..groups..." />
+            <marker date="1459326954962" expanded="true" signature="9541:9606" placeholder="INSERT INTO ..." />
+            <marker date="1459326954962" expanded="true" signature="10076:10116" placeholder="INSERT INTO ..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/JDBC.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.17085427" vertical-offset="0" max-vertical-offset="398">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Server.java">
+    <entry file="file://$PROJECT_DIR$/src/Data/Contacts.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="733" max-vertical-offset="1564">
-          <caret line="56" column="0" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
-          <folding />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Data/Groups.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/d5cfbb65/2c63047d-fdc4-4f97-bc3e-af17e54766cb/chat_server..groups">
+      <provider selected="true" editor-type-id="com.intellij.persistence.database.editor.DatabaseTableFileEditorProvider">
+        <state />
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="100">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/d5cfbb65/2c63047d-fdc4-4f97-bc3e-af17e54766cb/chat_server..user_grp_rel">
+      <provider selected="true" editor-type-id="com.intellij.persistence.database.editor.DatabaseTableFileEditorProvider">
+        <state />
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="100">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -693,30 +1218,39 @@
       <provider editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="100">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Data/Contacts.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="106" max-vertical-offset="816">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Handler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.39209226" vertical-offset="1496" max-vertical-offset="3298">
-          <caret line="119" column="20" selection-start-line="119" selection-start-column="20" selection-end-line="119" selection-end-column="20" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="5197" max-vertical-offset="6596">
+          <caret line="337" column="42" selection-start-line="337" selection-start-column="42" selection-end-line="337" selection-end-column="42" />
           <folding>
-            <element signature="e#3645#3646#0" expanded="true" />
-            <element signature="e#3672#3673#0" expanded="true" />
-            <marker date="1458985400913" expanded="true" signature="1083:1147" placeholder="SELECT COUNT..users..." />
-            <marker date="1458985400913" expanded="true" signature="1680:1728" placeholder="UPDATE users..." />
-            <marker date="1458985400913" expanded="true" signature="2144:2245" placeholder="SELECT USER_..users..." />
-            <marker date="1458985400913" expanded="true" signature="3118:3163" placeholder="SELECT USER_..users..." />
-            <marker date="1458985400913" expanded="true" signature="5740:5805" placeholder="INSERT INTO ..." />
+            <marker date="1459326954962" expanded="true" signature="1350:1414" placeholder="SELECT COUNT..users..." />
+            <marker date="1459326954962" expanded="true" signature="1972:2223" placeholder="SELECT USER_..users..." />
+            <marker date="1459326954962" expanded="true" signature="3080:3134" placeholder="UPDATE users..." />
+            <marker date="1459326954962" expanded="true" signature="3521:3622" placeholder="SELECT USER_..users..." />
+            <marker date="1459326954962" expanded="true" signature="4537:4582" placeholder="SELECT USER_..users..." />
+            <marker date="1459326954962" expanded="true" signature="5160:5198" placeholder="INSERT INTO ..." />
+            <marker date="1459326954962" expanded="true" signature="5737:6020" placeholder="SELECT GRP_N..groups..." />
+            <marker date="1459326954962" expanded="true" signature="6573:7212" placeholder="SELECT DISTI..groups..." />
+            <marker date="1459326954962" expanded="true" signature="6901:7183" placeholder="SELECT GRP_N..groups..." />
+            <marker date="1459326954962" expanded="true" signature="7982:8039" placeholder="DELETE FROM ..." />
+            <marker date="1459326954962" expanded="true" signature="8460:8505" placeholder="SELECT USER_..users..." />
+            <marker date="1459326954962" expanded="true" signature="8990:9034" placeholder="SELECT GRP_I..groups..." />
+            <marker date="1459326954962" expanded="true" signature="9541:9606" placeholder="INSERT INTO ..." />
+            <marker date="1459326954962" expanded="true" signature="10076:10116" placeholder="INSERT INTO ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Server.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.21581548" vertical-offset="2079" max-vertical-offset="3502">
+          <caret line="151" column="48" selection-start-line="151" selection-start-column="48" selection-end-line="151" selection-end-column="48" />
+          <folding>
+            <marker date="1459279672720" expanded="true" signature="899:936" placeholder="DELETE FROM ..." />
+            <marker date="1459279672720" expanded="true" signature="4561:4616" placeholder="UPDATE users..." />
           </folding>
         </state>
       </provider>
@@ -727,10 +1261,12 @@
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />
+          <last-edited>ChatServer:jar</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.5" />
               </list>
             </option>
           </splitter-proportions>
@@ -798,6 +1334,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
+          <last-edited>mysql-connector-java-5.1.29-bin</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

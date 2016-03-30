@@ -1,0 +1,11 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="ChatServer:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/ChatServer_jar</output-path>
+    <root id="archive" name="ChatServer.jar">
+      <element id="module-output" name="ChatServer" />
+      <element id="extracted-dir" path="C:/Program Files/MySQL/Connector J 5.1.29/mysql-connector-java-5.1.29-bin.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="C:/Program Files (x86)/MySQL/MySQL Connector J/src.zip" path-in-jar="/" />
+      <element id="extracted-dir" path="C:/Program Files (x86)/MySQL/MySQL Connector J/mysql-connector-java-5.1.30-bin.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>

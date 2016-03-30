@@ -21,6 +21,7 @@
         <jarDirectory url="file://C:/Program Files (x86)/MySQL/MySQL Connector J" recursive="false" type="SOURCES" />
       </library>
     </orderEntry>
+    <orderEntry type="library" name="mysql-connector-java-5.1.29-bin" level="project" />
   </component>
 </module>
 

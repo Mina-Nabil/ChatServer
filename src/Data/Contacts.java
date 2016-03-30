@@ -1,5 +1,7 @@
 package Data;
 
+
+import java.io.DataOutputStream;
 import java.io.Serializable;
 
 public class Contacts implements Serializable {
@@ -12,6 +14,8 @@ public class Contacts implements Serializable {
 	private String username;
 	private boolean state;
 	private String ip;
+
+
 
 	public Contacts()
 	{
@@ -26,7 +30,8 @@ public class Contacts implements Serializable {
 		setIp(ip);
 		
 	}
-	public String getUsername() {
+
+    public String getUsername() {
 		return username;
 	}
 
